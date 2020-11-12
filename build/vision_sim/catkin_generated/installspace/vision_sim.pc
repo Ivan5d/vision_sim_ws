@@ -1,0 +1,8 @@
+prefix=/home/ivan5d/vision_sim_ws/install
+
+Name: vision_sim
+Description: Description of vision_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
