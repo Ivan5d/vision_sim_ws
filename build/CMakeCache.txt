@@ -813,13 +813,13 @@ turtlebot3_gazebo_BINARY_DIR:STATIC=/home/ivan5d/vision_sim_ws/build/turtlebot3/
 turtlebot3_gazebo_SOURCE_DIR:STATIC=/home/ivan5d/vision_sim_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo
 
 //Value Computed by CMake
-turtlebot3_msgs_BINARY_DIR:STATIC=/home/ivan5d/vision_sim_ws/build/turtlebot3/turtlebot3_msgs
+turtlebot3_msgs_BINARY_DIR:STATIC=/home/ivan5d/vision_sim_ws/build/turtlebot3_msgs
 
 //The directory containing a CMake configuration file for turtlebot3_msgs.
 turtlebot3_msgs_DIR:PATH=/home/ivan5d/vision_sim_ws/devel/share/turtlebot3_msgs/cmake
 
 //Value Computed by CMake
-turtlebot3_msgs_SOURCE_DIR:STATIC=/home/ivan5d/vision_sim_ws/src/turtlebot3/turtlebot3_msgs
+turtlebot3_msgs_SOURCE_DIR:STATIC=/home/ivan5d/vision_sim_ws/src/turtlebot3_msgs
 
 //Value Computed by CMake
 turtlebot3_navigation_BINARY_DIR:STATIC=/home/ivan5d/vision_sim_ws/build/turtlebot3/turtlebot3_navigation
@@ -1025,7 +1025,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
