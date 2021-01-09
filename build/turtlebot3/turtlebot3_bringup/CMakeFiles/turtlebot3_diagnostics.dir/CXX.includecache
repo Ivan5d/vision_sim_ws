@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ivan5d/vision_sim_ws/devel/include/turtlebot3_msgs/SensorState.h
+/home/ivan5d/catkin_ws/devel/include/turtlebot3_msgs/SensorState.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/ivan5d/vision_sim_ws/devel/include/turtlebot3_msgs/VersionInfo.h
+/home/ivan5d/catkin_ws/devel/include/turtlebot3_msgs/VersionInfo.h
 string
 -
 vector

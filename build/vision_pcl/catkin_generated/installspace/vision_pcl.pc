@@ -1,0 +1,8 @@
+prefix=/home/ivan5d/vision_sim_ws/install
+
+Name: vision_pcl
+Description: Description of vision_pcl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

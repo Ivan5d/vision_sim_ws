@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ivan5d/vision_sim_ws/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
   include("/home/ivan5d/vision_sim_ws/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
   include("/home/ivan5d/vision_sim_ws/build/vision_gazebo/cmake_install.cmake")
+  include("/home/ivan5d/vision_sim_ws/build/vision_plc/cmake_install.cmake")
   include("/home/ivan5d/vision_sim_ws/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
 
 endif()

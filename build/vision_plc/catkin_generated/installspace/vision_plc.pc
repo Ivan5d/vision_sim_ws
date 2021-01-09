@@ -1,0 +1,8 @@
+prefix=/home/ivan5d/vision_sim_ws/install
+
+Name: vision_plc
+Description: Description of vision_plc
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
