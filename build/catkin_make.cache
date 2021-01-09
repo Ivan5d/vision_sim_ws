@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 turtlebot3/turtlebot3:turtlebot3/turtlebot3_bringup:turtlebot3/turtlebot3_description:turtlebot3/turtlebot3_example:turtlebot3/turtlebot3_navigation:turtlebot3/turtlebot3_slam:turtlebot3/turtlebot3_teleop:turtlebot3_msgs:vision_description:vision_gazebo:vision_plc
+=======
+realsense_gazebo_plugin:turtlebot3/turtlebot3:turtlebot3/turtlebot3_bringup:turtlebot3/turtlebot3_description:turtlebot3/turtlebot3_example:turtlebot3/turtlebot3_navigation:turtlebot3/turtlebot3_slam:turtlebot3/turtlebot3_teleop:turtlebot3_msgs:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations:vision_description:vision_gazebo
+>>>>>>> 0c645b1d890483cefdec50dd155bfc0a7166cb08
 -DCATKIN_DEVEL_PREFIX=/home/ivan5d/vision_sim_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ivan5d/vision_sim_ws/install -G Unix Makefiles

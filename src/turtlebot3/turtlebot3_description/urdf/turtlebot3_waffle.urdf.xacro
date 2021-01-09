@@ -33,7 +33,8 @@
     </collision>
     
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <!-- Changed inertial origin as the visual one-->
+      <origin xyz="-0.064 0 0" rpy="0 0 0"/>
       <mass value="1.3729096e+00"/>
       <inertia ixx="8.7002718e-03" ixy="-4.7576583e-05" ixz="1.1160499e-04"
                iyy="8.6195418e-03" iyz="-3.5422299e-06"
@@ -190,6 +191,8 @@
     </inertial>
   </link>
 
+<!-- Inicia camara -->
+
   <joint name="camera_joint" type="fixed">
     <origin xyz="0.064 -0.065 0.094" rpy="0 0 0"/>
     <parent link="base_link"/>
@@ -211,13 +214,13 @@
     </collision>
 
     <!-- This inertial field needs doesn't contain reliable data!! -->
-<!--   <inertial>
+    <inertial>
       <mass value="0.564" />
       <origin xyz="0 0 0" />
       <inertia ixx="0.003881243" ixy="0.0" ixz="0.0"
                iyy="0.000498940" iyz="0.0"
                izz="0.003879257" />
-    </inertial>-->
+    </inertial>
   </link>
 
   <joint name="camera_rgb_joint" type="fixed">
